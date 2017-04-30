@@ -1,0 +1,36 @@
+{
+  "name": "express-api-demo",
+  "version": "1.0.0",
+  "description": "A demo using express JS and commonJs to build an API.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "jasmine tests/"
+  },
+  "keywords": [
+    "express",
+    "js",
+    "demo",
+    "api"
+  ],
+  "author": "Bolaji Olajide 'Nuel",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.6"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andela-bolajide/ExpressJS-API-Demo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andela-bolajide/ExpressJS-API-Demo/issues"
+  },
+  "homepage": "https://github.com/andela-bolajide/ExpressJS-API-Demo#readme"
+}
