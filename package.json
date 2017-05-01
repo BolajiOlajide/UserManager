@@ -1,10 +1,10 @@
 {
   "name": "express-api-demo",
   "version": "1.0.0",
-  "description": "A demo using express JS and commonJs to build an API.",
+  "description": "A demo using express JS to build an API.",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "test": "jasmine tests/"
   },
   "keywords": [
