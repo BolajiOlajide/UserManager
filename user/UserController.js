@@ -6,7 +6,6 @@ var User = require('./user');
 var router = express.Router();
 router.use(bodyParser.urlencoded({ extended: true }));
 
-
 // CREATES A NEW USER
 router.post('/', function (req, res) {
     User.create({
