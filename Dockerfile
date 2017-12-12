@@ -6,7 +6,7 @@ RUN apt-get update -y --fix-missing && \
     apt-get -y install mongodb-server && \
     mkdir /srv/www
 
-COPY ExpressJS-API-Demo  /srv/www/ExpressJS-API-Demo
+COPY .  /srv/www/ExpressJS-API-Demo
 
 COPY start.sh  /srv/www/start.sh
 
