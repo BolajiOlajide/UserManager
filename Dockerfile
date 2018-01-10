@@ -14,7 +14,7 @@ COPY .  /srv/www/ExpressJS-API-Demo
 #Copying start script for Node.js application
 COPY start.sh  /srv/www/start.sh
 
-#Making start script executable 
+#Making start script executable xxx
 RUN chmod +x /srv/www/start.sh
 
 #Running start script after launching docker container
