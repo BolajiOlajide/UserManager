@@ -4,7 +4,7 @@
 
 #### How should this be manually tested
 
-#### What are the relevant pivotal tracker stories
+#### What are the relevant github issues
 
 #### Any background context you want to add
 
